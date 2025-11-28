@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Bem-vindo à API de E-commerce! em Node.js + Express");
+    res.send("Bem-vindo à API de E-commerce! em Node.js + Express - Teste TSC Watch");
 });
 
 app.listen(3000, () => {
